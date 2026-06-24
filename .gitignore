@@ -1,0 +1,27 @@
+# Private input images and generated results
+input_images/*
+output_weak/*
+output_strong/*
+previews_weak/*
+previews_strong/*
+masks_weak/*
+masks_strong/*
+
+# Keep folder structure in git
+!input_images/.gitkeep
+!output_weak/.gitkeep
+!output_strong/.gitkeep
+!previews_weak/.gitkeep
+!previews_strong/.gitkeep
+!masks_weak/.gitkeep
+!masks_strong/.gitkeep
+
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
