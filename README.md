@@ -9,8 +9,8 @@
 - 批量处理 `jpg`、`jpeg`、`png`、`bmp`、`tif`、`tiff`、`webp`
 - 支持中文路径和中文文件名
 - 两种清理模式：
-  - `弱清除.bat`：默认推荐，保留横线优先，先清除明显红笔，再淡化浅红残影
-  - `强清除.bat`：清除更强，残影更少，但红笔压住横线的位置可能出现断线
+  - `weak_clean.bat`：弱清除，默认推荐，保留横线优先，先清除明显红笔，再淡化浅红残影
+  - `strong_clean.bat`：强清除，残影更少，但红笔压住横线的位置可能出现断线
 - 输出三类文件：
   - 清理后图片
   - 红色检测蒙版
@@ -20,7 +20,7 @@
 
 1. 第一次使用先双击 `install_dependencies.bat` 安装依赖。
 2. 把要处理的图片放入 `input_images` 文件夹。
-3. 双击 `弱清除.bat` 或 `强清除.bat`。
+3. 双击 `weak_clean.bat` 或 `strong_clean.bat`。
 4. 查看输出：
    - 弱清除结果：`output_weak`
    - 强清除结果：`output_strong`
@@ -56,6 +56,8 @@ remove_red_marks.py
 弱清除.bat
 强清除.bat
 install_dependencies.bat
+weak_clean.bat
+strong_clean.bat
 ```
 
 ## 注意事项
